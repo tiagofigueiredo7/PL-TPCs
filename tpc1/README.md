@@ -7,10 +7,13 @@ Considere o ficheiro de texto tpc.txt em anexo, e responda às seguintes questõ
 ### Pergunta 1
 Quantos tokens têm pelo menos dois pontos seguidos?
 
-R:
+Expressão Regular: `( |\n).*\.\..*( |\n)`
+
+R: 205
 
 ### Pergunta 2
 Quantos tokens começam e acabam num símbolo de adição e têm apenas símbolos alfa-numéricos entre eles?
 
+Expressão Regular: `( |\n)\+[a-zA-Z0-9]\+( |\n)`
 
-R:
+R: 4
