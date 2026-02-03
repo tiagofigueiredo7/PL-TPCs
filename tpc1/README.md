@@ -7,7 +7,7 @@ Considere o ficheiro de texto tpc.txt em anexo, e responda às seguintes questõ
 ### Pergunta 1
 Quantos tokens têm pelo menos dois pontos seguidos?
 
-Expressão Regular: `( |\n)\S*\.\.\S*( |\n)` ou `( |\n).*\.\..*( |\n)` ou `\s\S*\.\.\S*\s` (caso não seja no VSCode)
+Expressão Regular: `( |\n)\S*\.\.\S*( |\n)` ou `\s\S*\.\.\S*\s` (caso não seja no VSCode)
 
 R: 205
 
