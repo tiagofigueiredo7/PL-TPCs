@@ -12,7 +12,7 @@ Expressão Regular: `( |\n)\S*\.\.\S*( |\n)` ou `\s\S*\.\.\S*\s` (caso não seja
 R: 205
 
 ### Pergunta 2
-Quantos tokens começam e acabam num símbolo de adição e têm apenas símbolos alfa-numéricos entre eles?
+Quantos tokens começam e acabam num símbolo de adição e têm apenas (pelo menos um) símbolos alfa-numéricos entre eles?
 
 Expressão Regular: `( |\n)\+[a-zA-Z0-9]+\+( |\n)` ou `\s\+[a-zA-Z0-9]+\+\s` (caso não seja no VSCode)
 
