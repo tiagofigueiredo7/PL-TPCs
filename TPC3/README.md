@@ -67,3 +67,11 @@ R: 6
 Considere o ficheiro md1.md em anexo. Converta-o para HTML usando o programa Python que desenvolveu. Quantas tags \<li> tem o HTML resultante?
 
 R: 44
+
+## Testar
+
+Para correr o script e verificar as respostas, basta fazer:
+
+```bash
+python3 script.py
+```
