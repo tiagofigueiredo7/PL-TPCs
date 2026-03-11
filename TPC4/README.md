@@ -7,12 +7,16 @@ Considere a seguinte gramática independente de contexto (CFG) com símbolo inic
 `S → aSa | bSb | aa | bb`
 
 Quais das seguintes palavras são geradas por esta CFG?
-1. `aba`
-2. `abba`
-3. `aaabbb`
-4. `baabbaab`
+- [ ] `aba`
+- [x] `abba`
+- [ ] `aaabbb`
+- [x] `baabbaab`
 
-R:
+```
+S => aSa => abba
+
+S => bSb => baSab => baaSaab => baabbaab
+```
 
 ---
 
@@ -22,12 +26,16 @@ Considere a seguinte gramática independente de contexto (CFG) com símbolo inic
 `S → aSa | bSb | a | b | ε`
 
 Quais das seguintes palavras são geradas por esta CFG?
-- [ ] `aabbaa`
+- [x] `aabbaa`
 - [ ] `aaaabb`
-- [ ] `aabbbaa`
+- [x] `aabbbaa`
 - [ ] `aabba`
 
-R:
+```
+S => aSa => aaSaa => aabSbaa => aabbaa
+
+S => aSa => aaSaa => aabSbaa => aabbbaa
+```
 
 ---
 
@@ -40,16 +48,13 @@ Considere a seguinte gramática independente de contexto (CFG) com símbolo inic
 
 Quais das seguintes palavras são geradas por esta CFG?
 
-1. `cbaabc`
-2. `abaaaba`
-3. `ccc`
-4. `cac`
+- [ ] `cbaabc`
+- [x] `abaaaba`
+- [ ] `ccc`
+- [x] `cac`
 
-R:
+```
+S => aSa => abSba => abaSaba => abaAaba => abaBaba => abaaBaba => abaaaba
 
-$$
-f(x) = \begin{cases}
-1 & \text{se } x \text{ é gerada pela CFG} \\
-0 & \text{caso contrário}
-\end{cases}
-$$
+S => A => cAc => cBc => caBc => cac
+```
