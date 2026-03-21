@@ -10,9 +10,9 @@ O que pode concluir sobre a condição LL(1) relativamente à gramática abaixo?
 
 `B → 'd' B | 'f'`
 
-- [ ]Não tem conflitos
-- [ ]Tem conflitos FIRST/FIRST
-- [x]Tem conflitos FIRST/FOLLOW
+- [ ] Não tem conflitos
+- [ ] Tem conflitos FIRST/FIRST
+- [x] Tem conflitos FIRST/FOLLOW
 
 ```
 Calcular FIRST e FOLLOW:
@@ -45,9 +45,9 @@ O que pode concluir sobre a condição LL(1) relativamente à gramática abaixo?
 
 `D → 'y'`
 
-- [ ]Não tem conflitos
-- [x]Tem conflitos FIRST/FIRST
-- [ ]Tem conflitos FIRST/FOLLOW
+- [ ] Não tem conflitos
+- [x] Tem conflitos FIRST/FIRST
+- [ ] Tem conflitos FIRST/FOLLOW
 
 ```
 Calcular FIRST:
