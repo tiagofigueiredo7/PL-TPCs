@@ -43,7 +43,9 @@ S => aSa => aaSaa => aabSbaa => aabbbaa
 Considere a seguinte gramática independente de contexto (CFG) com símbolo inicial S e terminais {a, b, c}.
 
 `S → aSa | bSb | A`
+
 `A → cAc | B`
+
 `B → aB | ε`
 
 Quais das seguintes palavras são geradas por esta CFG?
